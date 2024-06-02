@@ -1,0 +1,87 @@
+body {
+    background-color: #FFFFDD;
+    
+}
+
+p {
+    text-align: justify;
+    color: #503917;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #503917;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header */
+nav {
+    background-color: #f2c437;
+/* #f1be25 */
+/* #f2c437 */
+}
+
+/*GIA-menu*/
+nav ul li a h2 {
+    color: #2b1d09;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Nosotros, productos,etc*/
+nav ul li{
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 35px;
+}
+
+/* Icons */
+nav ul li a img {
+    height: 25px;
+    width: 25px;
+}
+
+
+
+/* Main*/
+/* imagen  y GIA*/
+main h1 {
+    font-size: 150px;
+    color: #2b1d09;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../img/gia9.webp);
+    background-size: cover;
+    height: 600px;
+    margin: 5px;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #c6bb97;
+    padding: 15px;
+    margin: 25px 10px 5px;
+}

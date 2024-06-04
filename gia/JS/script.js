@@ -1,10 +1,12 @@
-let nombreProdcuto
-let precioUnitario
-let cantidadDeseada
+let nombreProdcuto="plantas";
+let precioUnitario=200;
+let cantidadDeseada=prompt("Ingrese la cantidad");
+let total=cantidadDeseada*precioUnitario;
+let descuento=total-total*0.10;
 
-nombreProdcuto="plantas"
-precioUnitario=200
-
-cantidadDeseada=prompt("Ingrese la cantidad");
-
-alert("Su total es de $"+precioUnitario*cantidadDeseada+" por "+cantidadDeseada+" "+nombreProdcuto);
+if (cantidadDeseada=>5) {
+    alert("Su total es de $"+descuento);
+}
+else {
+    alert("Su total es de $"+total);
+}
